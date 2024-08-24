@@ -42,13 +42,17 @@ router.put("/posts/:id",async(req,res)=>{
     const {id} =req.params
     const{object}=req.body
     await updateBlog(id,object);
-res.status(200).json({message:"updated successfully"})
+res.status(200).json({
+    "message": "Blog updated successfully!"
+  })
 });
 
 router.delete("/posts/:id",async(req,res)=>{
 const {id} =req.params
 await deleteBlog(id)
-res.status(200).json({message:"deleted successfully!"})
+res.status(200).json({
+    "message": "Blog deleted successfully!"
+  })
 })
 
 
