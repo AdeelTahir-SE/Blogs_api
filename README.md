@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Blog API provides a set of endpoints for managing blog posts. You can create, read, update, and delete blog posts using this API. The API supports filtering posts based on search terms and provides a simple way to interact with blog data.
+The Blog API provides a set of endpoints for managing blog posts. You can create, read, update, and delete blog posts using this API. The API supports filtering posts based on search terms and provides a simple way to interact with blog data. The idea of project is taken from https://roadmap.sh/projects/blogging-platform-api
 
 ## Endpoints
 
